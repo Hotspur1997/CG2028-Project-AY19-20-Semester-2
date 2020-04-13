@@ -13,7 +13,7 @@ int main(void)
 {
 	// Variable definition
 	
-	int col_i, row_i, scale = 100000;
+	int col_i, row_i, scale = 10000000;
 	float summ, pd_c, pd_asm;
 
 	int CM[M][M] =
@@ -38,14 +38,14 @@ int main(void)
 
 	for (row_i = 0; row_i < M; row_i++)
 	{
-		pd_asm = pd[row_i]/scale;
+		pd_asm = (float)pd[row_i]/scale;
 		printf ("pd_asm %d: %f \n", row_i, pd_asm);
 	}
 
 	// NOTE: You DO NOT need to modify the code below this line
 	
 	// C & Floating Point version
-	printf ("\n C & floating point version: \n");
+	printf ("\nC & floating point version: \n");
 	
 	for (row_i = 0; row_i < M; row_i++)
 	{ 
