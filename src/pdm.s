@@ -10,11 +10,13 @@ pdm:
 @  Write Probability of Detection function in assembly language here
 @  Currently, nothing is done and this function returns straightaway
 	PUSH {R4-R8}
+	CMP R0, #0  @check if the value stored inside R8 is 0
+	BEQ Finish  @branch to Finish block if R0 is equal to 0
 	MOV R5, #0 	@initialise register R5 to be 0 ie Denominator Accumulator
 	MOV R6, #0 	@initialise register R6 to be 0
-	MOV R7, #0  @initialise the register 10 to M
-	MOV R8, #0 	@initialise the register 7 to M
-
+	MOV R7, #0  @initialise the register 7 to 0
+	MOV R8, #0 	@initialise the register 8 to 0
+	
 Add:
 	LDR R6, [R2], #4  @load the value of contents of register R2 into R6 and increment R2 by 4
 	ADD R5, R6 	@add the contents of R6 to R5
