@@ -13,7 +13,7 @@ int main(void)
 {
 	// Variable definition
 	
-	int col_i, row_i, scale = 10000000;
+	int col_i, row_i, scale = 10000000; //10 ^ 7 for a precision of up to 0.000001
 	float summ, pd_c, pd_asm;
 
 	int CM[M][M] =
