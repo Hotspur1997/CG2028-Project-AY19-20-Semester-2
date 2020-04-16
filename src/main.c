@@ -1,6 +1,9 @@
 #include <stdio.h>
 // CG2028 Assignment 
 // (c) Eric Cheung, ECE NUS 2020
+// Lab Group B02-12
+// Marc Phua Hsiao Meng A0183219A
+// Weng Kexin A0187566L
 // Classification methods using Probability of Detection
 // Definition of assembly function, students should not modify it
 
