@@ -6,6 +6,8 @@
  	.thumb_func
 @  CG2028 Assignment
 @  Lab Group B02-12
+@  Marc Phua Hsiao Meng A0183219A
+@  Weng Kexin A0187566L
 @  ECE, NUS
 
 pdm:
